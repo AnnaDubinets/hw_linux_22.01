@@ -1,0 +1,10 @@
+   0 mkdir -p /root/test3/newfolfer
+   1 touch /root/test3/newfolfer/myfile.txt
+   2 ls
+   3 ls -a
+   4 df -h > /root/test3/newfolfer/myfile.txt 
+   5 df -h | head -9 >> /root/test3/newfolfer/myfile.txt 
+   6 cat
+   7 tail -3 /etc/group | wc -c >> /root/test3/newfolfer/myfile.txt 
+   8 vi /root/test3/newfolfer/myfile.txt 
+   9 history >> history_22.txt
